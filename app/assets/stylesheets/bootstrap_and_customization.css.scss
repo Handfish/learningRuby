@@ -4,7 +4,7 @@
 $body-bg:		#E4ECF7;
 
 $jumbotron-bg:					white;
-$font-family-sans-serif:		"Exo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:		"Helvetica Neue", Helvetica, Arial, sans-serif;
 $navbar-height:					45px;
 $navbar-default-bg:				#CDDAEC;
 $navbar-default-link-color:		#4D4D4D;
@@ -29,10 +29,10 @@ $navbar-default-brand-hover-color:	lighten($navbar-default-brand-color, 30.5%);
 .jumbotron {
     padding: 0.5em 0.6em;
     h1 {
-    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 3em;
     }
     p {
+    	font-family: "Exo", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 1.2em;
         .btn {
             padding: 0.5em;
@@ -40,7 +40,12 @@ $navbar-default-brand-hover-color:	lighten($navbar-default-brand-color, 30.5%);
     }
 }
 
+.navbar-nav {
+	font-family: "Exo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .navbar-brand {
+	font-family: "Exo", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 24px;
 }
