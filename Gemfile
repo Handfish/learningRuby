@@ -10,6 +10,7 @@ gem 'devise', '~> 3.2.4'
 
 # For images
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '~> 1.42.0'
 
 group :development, :test do
 	gem 'sqlite3'
